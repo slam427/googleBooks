@@ -10,7 +10,7 @@ setSearchInput(event.target.value);
 console.log(searchInput);
 }
 const handleSubmit= (event) => {
-console.log("event", event)
+console.log(event)
 event.preventDefault();
 API.googleBookSearch(searchInput).then(results => {
     console.log(results);

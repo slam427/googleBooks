@@ -5,6 +5,7 @@ const app = express();
 const URL = 'https://www.googleapis.com/books/v1/volumes'
 const PORT = process.env.PORT || 3001;
 const axios = require('axios');
+const db = require('./models');
 
 // Define middleware here
 app.use(express.urlencoded({ extended: true }));
@@ -32,6 +33,14 @@ app.get('/api/google', function (req, res) {
             return book;
         }));
     });
+})
+
+app.post('/api/savedbook', function (req, res) {
+    console.log(req.body)
+    db.Book.create(req.body).then(bookData => {
+        res.json(bookData);
+    })
+
 })
 
 // Connect to the Mongo DB

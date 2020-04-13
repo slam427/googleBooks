@@ -7,8 +7,7 @@ function BookList (props) {
     console.log(props)
 return (
     <div>
-        {props.books.map(
-        book =>  <Book bookInfo={book}/>
+        {props.books.map(book =>  <Book bookInfo={book}/>
         )}
     </div>
 )
