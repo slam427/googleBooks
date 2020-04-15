@@ -1,9 +1,6 @@
 # Google Books Search
 [GoogleBooks Search](https://gbooksearchandsave.herokuapp.com/)
 
-
-![googleBooks]( "Link to app")
-
 ![Siteimage](./public/Main.PNG)
 
 ## Installation
