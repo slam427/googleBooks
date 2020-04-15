@@ -1,3 +1,7 @@
 nav {
-  background-color:black;
+  background-color:blue;
+}
+
+nav, ul, li {
+  float: right;
 }

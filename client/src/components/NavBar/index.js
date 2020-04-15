@@ -4,12 +4,13 @@ import { Link } from "react-router-dom";
 function NavBar() {
     return (
         <nav>
+                {/* <img id='googleBooksImage' src='/client/public/gBooksLogo.svg'alt='googleBooks'/> */}
             <ul>
                 <li>
-                    <Link to="/">Search</Link>
+                    <Link to="/">Home</Link>
                 </li>
                 <li>
-                    <Link to="/saved">Saved</Link>
+                    <Link to="/saved">Saved Books</Link>
                 </li>
             </ul>
         </nav>

@@ -13,5 +13,3 @@ router.route('/').get(function (req, res) {
 
 
 module.exports = router;
-
-// https://www.googleapis.com/books/v1/volumes?q=?&fields=items(id,volumeInfo(title,authors,description,canonicalVolumeLink,imageLinks(thumbnail)))

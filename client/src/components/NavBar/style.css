@@ -1,0 +1,9 @@
+img {
+display:block;
+height: 50px;
+}
+
+#googleBooksImage {
+    height: 25%;
+    width: 25%;
+}

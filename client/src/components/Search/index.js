@@ -22,7 +22,7 @@ return (
 <form onSubmit={handleSubmit}>
 <input onChange={handleChange} type='text' name='searchInput'/>
 <button type='submit'>
-    Search
+Search
 </button>
 </form>
 )}

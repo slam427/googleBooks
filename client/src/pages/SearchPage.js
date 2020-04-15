@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
 import Search from '../components/Search';
 import BookList from '../components/BookList';
+import './style.css';
 
 function SearchPage() {
+    //setter updates state
     const [bookResults, setBookResults] = useState ([]);
 
     return (
