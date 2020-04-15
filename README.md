@@ -4,7 +4,7 @@
 
 ![googleBooks]( "Link to app")
 
-![Siteimage](/public/Main.PNG)
+![Siteimage](./public/Main.PNG)
 
 ## Installation
 
