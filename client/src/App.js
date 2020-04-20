@@ -11,7 +11,7 @@ import {
 
 function App() {
   return (
-<Router>
+    <Router>
       <div>
         <NavBar />
         {/* A <Switch> looks through its children <Route>s and
